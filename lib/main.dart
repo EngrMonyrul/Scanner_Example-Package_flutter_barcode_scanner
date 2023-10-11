@@ -24,8 +24,8 @@ class _MyAppState extends State<MyApp> {
     try {
       barcodeScanResult = await FlutterBarcodeScanner.scanBarcode(
         '#ff6666',
-        'Cancle',
-        true,
+        'Cancel',
+        false,
         ScanMode.DEFAULT,
       );
       print(barcodeScanResult);
